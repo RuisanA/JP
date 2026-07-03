@@ -192,6 +192,7 @@ try {
               { id: "run", label: "実行", style: "DANGER" },
             ]),
           ],
+          ephemeral: true,
         });
   }
 } catch (e) {
