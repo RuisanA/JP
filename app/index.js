@@ -187,7 +187,6 @@ try {
 
     interaction.reply({
           content: `実行しますか？`,
-          embeds: embeds,
           components: [
             newbutton([
               { id: "run", label: "実行", style: "DANGER" },
